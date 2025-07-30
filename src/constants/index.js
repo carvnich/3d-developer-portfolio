@@ -19,10 +19,14 @@ import {
     starbucks,
     tesla,
     shopify,
+    tigercat,
+    sheridan,
     carrent,
     jobit,
     tripguide,
     threejs,
+    indoor,
+    taz,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +46,20 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
-        icon: web,
+        title: "Full Stack Developer",
+        icon: creator,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
-        title: "Backend Developer",
+        title: ".NET Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "React Developer",
+        icon: web,
+    },
+    {
+        title: "Mobile App Developer",
+        icon: mobile,
     },
 ];
 
@@ -116,55 +120,35 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Web Applications Developer",
+        company_name: "Tigercat Industries Inc.",
+        icon: tigercat,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "October 2022 - July 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Led full-stack development of enterprise applications serving 200+ users with C#/.NET Core and JavaScript",
+            "Designed and optimized SQL databases, improving system performance by 40%",
+            "Built responsive web interfaces using HTML5, CSS3, React, and Angular",
+            "Collaborated with cross-functional teams including engineers and business stakeholders",
+            "Developed RESTful APIs with JSON/XML for seamless application integration",
+            "Mentored junior developers through code reviews and pair programming",
+            "Deployed cross-platform mobile application using React Native",
+            "Implemented CI/CD pipelines with Azure DevOps for automated testing and deployment",
+            "Established security protocols and maintained high code quality standards",
+            "Delivered 3+ major software releases on schedule using agile methodologies"
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Computer Programming",
+        company_name: "Sheridan College",
+        icon: sheridan,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "October 2020 - April 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Web Development with HTML, CSS, JavaScript, and frameworks",
+            "Database Design and SQL programming",
+            "Object-oriented programming and design patterns",
+            "Version control and team collaboration"
         ],
     },
 ];
@@ -198,16 +182,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Paris Indoor Soccer League",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A comprehensive sports league management platform built with React and modern web technologies for seamless member experience, featuring user management and live updates.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "nextjs",
                 color: "green-text-gradient",
             },
             {
@@ -215,51 +199,54 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: indoor,
+        live_link: "https://paris-indoor-soccer.vercel.app",
+        source_code_link: "https://github.com/carvnich/paris-indoor-soccer",
     },
     {
-        name: "Job IT",
+        name: "TAZ Contracting",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A sleek business website showcasing professional construction services with modern design, user-friendly navigation, and comprehensive service portfolio presentation.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "javascript",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: taz,
+        live_link: "https://taz-contracting.vercel.app",
+        source_code_link: "https://github.com/carvnich/TAZContracting",
     },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
+    // {
+    //     name: "Trip Guide",
+    //     description:
+    //         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //     tags: [
+    //         {
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "supabase",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "tailwind",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: tripguide,
+    //     live_link: "https://github.com/",
+    //     source_code_link: "https://github.com/",
+    // },
 ];
 
 export {services, technologies, experiences, testimonials, projects};
