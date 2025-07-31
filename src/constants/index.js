@@ -10,6 +10,11 @@ import {
     reactjs,
     redux,
     tailwind,
+    azure,
+    csharp,
+    dotnet,
+    angular,
+    mysql,
     nodejs,
     mongodb,
     git,
@@ -35,8 +40,12 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "experience",
+        title: "Experience",
+    },
+    {
+        id: "projects",
+        title: "Projects",
     },
     {
         id: "contact",
@@ -65,14 +74,6 @@ const services = [
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
         name: "JavaScript",
         icon: javascript,
     },
@@ -85,8 +86,8 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "angular",
+        icon: angular,
     },
     {
         name: "Tailwind CSS",
@@ -101,20 +102,28 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "mysql",
+        icon: mysql,
+    },
+    {
+        name: "azure",
+        icon: azure,
     },
     {
         name: "git",
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "csharp",
+        icon: csharp,
     },
     {
         name: "docker",
         icon: docker,
+    },
+    {
+        name: "dotnet",
+        icon: dotnet,
     },
 ];
 

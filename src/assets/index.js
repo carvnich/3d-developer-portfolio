@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logoNick from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +21,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import azure from "./tech/azure.png";
+import csharp from "./tech/csharp.png";
+import dotnet from "./tech/dotnet.png";
+import angular from "./tech/angular.png";
+import mysql from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +43,7 @@ import taz from "./taz.png";
 
 export {
     logo,
+    logoNick,
     backend,
     creator,
     mobile,
@@ -57,6 +64,11 @@ export {
     tailwind,
     typescript,
     threejs,
+    azure,
+    csharp,
+    dotnet,
+    angular,
+    mysql,
     meta,
     shopify,
     starbucks,
