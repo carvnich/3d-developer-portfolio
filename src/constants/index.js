@@ -193,7 +193,7 @@ const projects = [
     {
         name: "Paris Indoor Soccer League",
         description:
-            "A comprehensive sports league management platform built with React and modern web technologies for seamless member experience, featuring user management and live updates.",
+            "A sports league management platform built with React and modern web technologies for seamless member experience, featuring user management and live updates.",
         tags: [
             {
                 name: "react",
